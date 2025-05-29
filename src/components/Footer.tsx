@@ -1,4 +1,3 @@
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -11,10 +10,10 @@ const Footer = () => {
               <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">I</span>
               </div>
-              <span className="text-xl font-bold">Interviewer</span>
+              <span className="text-xl font-bold">InterScrewed</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Redefining interview preparation with AI, blockchain technology, and real conversations.
+              So you don't get... you know... in the real one.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
@@ -73,7 +72,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {currentYear} Interviewer. All rights reserved.
+              © {currentYear} InterScrewed. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>

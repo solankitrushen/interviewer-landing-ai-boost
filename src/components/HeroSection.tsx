@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
@@ -15,14 +14,13 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="text-center max-w-5xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 animate-fade-in">
-            Redefining Interview Preparation with{' '}
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              AI, Blockchain & Real Conversations
+              InterScrewed
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed animate-fade-in" style={{animationDelay: '0.2s'}}>
-            1-on-1 interviews, live coding sessions, group discussions, and smart feedback — all in one secure platform.
+            So you don't get... you know... in the real one.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in" style={{animationDelay: '0.4s'}}>
